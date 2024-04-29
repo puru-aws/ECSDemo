@@ -71,6 +71,7 @@ echo "<html><h1>Hello from your EFS</h1></html>" > hello.html
 - Add the below commands to its userdata 
 
 ```
+#!/bin/bash
 sudo yum install -y amazon-efs-utils 
 sudo yum install -y httpd
 sudo service httpd start
